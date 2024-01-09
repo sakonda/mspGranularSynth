@@ -4,4 +4,4 @@
 
 The unique point of my algorithm is that when looping small sound fragments from the audio in the buffer, it synchronizes the envelope of the window function (cosine by default) so that the noise generated at the loop point is inaudible. Furthermore, by synchronizing this envelope with the sample and hold, the noise generated when changing any parameter is also not heard. Check out what's inside the sub-patch.
 
-([SugarSynth]https://github.com/sakonda/mspGranularSynth) uses the same algorithm, but extends it with a poly~ object that allows the number of grains to be freely changed. We have also made numerous improvements to the user interface to make it easier for the player to control.
+[SugarSynth]https://github.com/sakonda/mspGranularSynth uses the same algorithm, but extends it with a poly~ object that allows the number of grains to be freely changed. We have also made numerous improvements to the user interface to make it easier for the player to control.
